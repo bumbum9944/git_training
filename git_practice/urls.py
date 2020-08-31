@@ -20,5 +20,6 @@ from branch_practice import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="home"),
-    path('gibeom/', views.gibeom, name="gibeom")
+    path('cmin/', views.cmin , name="cmin"),
+    path('gibeom/', views.gibeom, name="gibeom"),
 ]
